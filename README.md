@@ -1,34 +1,36 @@
-💳 Banking System (C/C++ Terminal App)
-A simple local banking system built using C/C++ and Data Structures & Algorithms (DSA).
-This project demonstrates fundamental concepts of account management, transactions, and data handling in a terminal-based application.
+# 💳 Banking System (C++ Terminal App)
 
-✨ Features
-Create a new bank account
-Deposit and withdraw money
-View account details
-Basic file-based data persistence
+A simple **local banking system** built using **C++ and Data Structures & Algorithms (DSA)**.  
+This project demonstrates fundamental concepts of account management, transactions, and data handling in a **terminal-based application**.
 
-🛠️ Tech Stack
-Language: C / C++
-Concepts Used: File handling, arrays, structures, pointers, and basic DSA principles
-Interface: Command-line (terminal app)
+---
 
-🚀 Getting Started
-1. Fork the Repository
-Click on the Fork button at the top-right corner of this repo to create your own copy.
+## ✨ Features
+- 🏦 Create a new bank account  
+- 💰 Deposit and withdraw money  
+- 📑 View account details  
+- 💾 Basic file-based data persistence  
 
-2. Clone the Repository
+---
+
+## 🛠️ Tech Stack
+- **Language:** C++  
+- **Concepts Used:** File handling, arrays, structures, pointers, and basic DSA principles  
+- **Interface:** Command-line (terminal app)  
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+```bash
+# 1️⃣ Clone the repository
 git clone https://github.com/<your-username>/Banking-System.git
 cd Banking-System
 
-3. Compile the Code
+# 2️⃣ Compile the program
 g++ banking.cpp -o banking
 
-4. Run the Program
+# 3️⃣ Run the program
 ./banking
-
-📂 Project Structure
-Banking-System/
-│── banking.cpp     # Main source code (or .c file if using C)
-│── README.md       # Project documentation
-│── file.txt    # File to store account data (generated at runtime)
